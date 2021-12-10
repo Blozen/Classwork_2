@@ -20,7 +20,7 @@ class Progr(QMainWindow):
             a = random.randrange(100)
             qp = QPainter()
             qp.begin(self)
-            qp.setBrush(QColor(255, 255, 0))
+            qp.setBrush(QColor(random.randrange(255), random.randrange(255), random.randrange(255)))
             qp.drawEllipse(random.randrange(75, 400 - a), random.randrange(75, 500 - a), a, a)
             qp.end()
 
