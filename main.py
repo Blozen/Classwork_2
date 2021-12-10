@@ -26,7 +26,6 @@ class Progr(QMainWindow):
 
     def run(self):
         self.do_paint = True
-        print(self.do_paint)
         self.repaint()
 
 
