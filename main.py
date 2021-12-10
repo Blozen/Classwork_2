@@ -8,7 +8,7 @@ import random
 class Progr(QMainWindow):
     def __init__(self):
         super().__init__()
-        uic.loadUi('ui1.ui', self)
+        uic.loadUi('UI.ui', self)
         self.start()
 
     def start(self):
